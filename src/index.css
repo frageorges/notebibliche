@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;700&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-bg: #F5F0E8;
+  --color-card: #FAF6EF;
+  --color-primary: #B5552A;
+  --color-primary-dark: #8C3D1A;
+  --color-accent: #5B8A8A;
+  --color-text: #2D2219;
+  --color-muted: #7A6A5A;
+  --color-border: #DDD5C5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F5F0E8;
+  color: #2D2219;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #DDD5C5; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #B5552A; }

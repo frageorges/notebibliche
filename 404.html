@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <title>Parola Viva</title>
+    <!--
+      GitHub Pages serves this file for any URL that isn't a real static
+      file — which, for a client-side-routed app like this one, means every
+      direct link to /archivio, /articolo/1, etc. Without this redirect,
+      reloading or sharing those URLs would show GitHub's plain 404 page
+      instead of the blog. This script re-encodes the requested path into a
+      query string and bounces to the site root, where index.html's
+      matching script restores it via history.replaceState before React
+      Router ever sees it. Technique: https://github.com/rafgraph/spa-github-pages
+    -->
+    <script type="text/javascript">
+      var pathSegmentsToKeep = 1; // keep "/notebibliche" from the path
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
