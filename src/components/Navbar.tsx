@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
         <Link to="/" className="flex flex-col leading-none" onClick={() => setOpen(false)}>
           <span style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.1rem', fontWeight: 700, color: '#2D2219', letterSpacing: '-0.01em' }}>
-            Parola Viva
+            Note Bibliche
           </span>
           <span style={{ fontSize: '0.65rem', letterSpacing: '0.12em', color: '#7A6A5A', textTransform: 'uppercase' }}>
             Meditazioni bibliche

@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
           <p style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.15rem', fontWeight: 700, color: '#FAF6EF', marginBottom: '0.6rem' }}>
-            Parola Viva
+            Note Bibliche
           </p>
           <p style={{ fontSize: '0.83rem', lineHeight: 1.7, color: '#A89585' }}>
             Meditazioni, esegesi e riflessioni bibliche per chi desidera leggere la Scrittura con occhi sempre nuovi.
@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
       </div>
       <div style={{ borderTop: '1px solid #3D3028', textAlign: 'center', padding: '1rem 0', fontSize: '0.75rem', color: '#7A6A5A' }}>
-        © {new Date().getFullYear()} Parola Viva — Tutti i diritti riservati
+        © {new Date().getFullYear()} Note Bibliche — Tutti i diritti riservati
       </div>
     </footer>
   )

@@ -1,4 +1,4 @@
-# Parola Viva — Meditazioni bibliche
+# Note Bibliche — Meditazioni bibliche
 
 Sito generato con Figma Make (React + Vite + TypeScript + Tailwind CSS +
 React Router), pubblicato su GitHub Pages con build automatica tramite

@@ -51,10 +51,10 @@ export default function Home() {
               marginBottom: '1.5rem',
             }}
           >
-            Leggere la Scrittura con occhi sempre nuovi
+            Quanto sono dolci al mio palato le tue parole
           </h1>
           <p style={{ fontSize: '1.05rem', color: '#C8B8A8', lineHeight: 1.8, maxWidth: '560px', marginBottom: '2.5rem' }}>
-            Un progetto di esegesi e meditazione biblica che accompagna ogni lettore — credente o curioso — nell'incontro con i testi fondatori della tradizione ebraico-cristiana.
+            Meditazioni che nutrono lo sguardo e il cuore — un cammino tra le pagine della Scrittura, dove ogni parola chiede di diventare vita vissuta.
           </p>
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
             <Link

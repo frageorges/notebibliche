@@ -174,12 +174,23 @@ export const articles: Article[] = [
     date: '2026-05-22',
     readTime: 7,
   },
+  {
+    id: '9',
+    title: "Caino e Abele: il custode del fratello",
+    excerpt: "Il racconto di Caino e Abele affronta la domanda più antica sulla responsabilità reciproca: la violenza nasce dalla sfiducia in Dio, ma la parola finale — timshel, «tu lo dominerai» — apre alla possibilità della fraternità.",
+    category: 'antico',
+    subcategory: 'pentateuco',
+    book: 'Genesi',
+    date: '2026-07-15',
+    readTime: 11,
+    featured: true,
+  },
 ]
 
 export const weeklyNote = {
   title: "Nota della settimana",
-  verse: "«La tua parola è lampada ai miei passi, luce sul mio cammino.»",
-  reference: "Salmo 119,105",
-  content: "Questa settimana torniamo al capitolo 40 di Isaia, uno dei testi più amati e più fraintesi dell'Antico Testamento. Il «Deutero-Isaia» — come gli studiosi chiamano i capitoli 40-55 — scrive in un contesto di esilio a Babilonia. Eppure il suo messaggio non è di rassegnazione ma di speranza radicale: Dio non ha dimenticato il suo popolo. Inizia qui un itinerario che porterà, attraverso le letture dei prossimi mesi, a esplorare i quattro Canti del Servo.",
+  verse: "«Sono forse io il custode di mio fratello?»",
+  reference: "Genesi 4,9",
+  content: "Questa settimana torniamo al racconto di Caino e Abele, una delle pagine più dure e insieme più feconde della Genesi. La domanda di Caino nasce come rifiuto — un modo per scaricarsi della responsabilità verso il fratello — ma la Scrittura la lascia risuonare come interrogativo aperto per ogni lettore. La violenza tra fratelli non nasce dal nulla: affonda nella sfiducia verso un Dio che si crede non benevolo, nella tristezza di sentirsi non amati. Eppure il racconto non si chiude nella disperazione: la parola di Dio a Caino — timshel, «tu lo dominerai» — resta una promessa aperta, la possibilità sempre offerta di riconoscere l'altro come fratello e non come estraneo.",
   date: "15 luglio 2026",
 }

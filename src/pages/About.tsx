@@ -22,7 +22,7 @@ export default function About() {
             },
             {
               heading: "Perché questo progetto",
-              text: "Parola Viva nasce da una convinzione semplice: la Bibbia è un testo di straordinaria complessità letteraria, storica e teologica, eppure è accessibile a chiunque abbia la pazienza di avvicinarsi con rispetto. Troppo spesso la distanza tra la ricerca accademica e la comunità dei lettori comuni si allarga invece di restringersi. Questo sito vuole essere un ponte.",
+              text: "Note Bibliche nasce da una convinzione semplice: la Bibbia è un testo di straordinaria complessità letteraria, storica e teologica, eppure è accessibile a chiunque abbia la pazienza di avvicinarsi con rispetto. Troppo spesso la distanza tra la ricerca accademica e la comunità dei lettori comuni si allarga invece di restringersi. Questo sito vuole essere un ponte.",
             },
             {
               heading: "Il metodo",
@@ -64,7 +64,7 @@ export default function About() {
               PV
             </div>
             <p style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.3rem' }}>
-              Parola Viva
+              Note Bibliche
             </p>
             <p style={{ fontSize: '0.78rem', color: '#A89585', marginBottom: '1.2rem' }}>Meditazioni bibliche dal 2020</p>
             <div style={{ fontSize: '0.82rem', color: '#C8B8A8', lineHeight: 1.75 }}>
